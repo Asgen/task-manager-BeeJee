@@ -1,0 +1,50 @@
+.logo {
+  margin-right: auto;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+.list__item {
+  margin-bottom: 50px;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+}
+
+.card-body {
+  padding-bottom: 35px;
+}
+
+.edit-button {
+  display: none;
+  position: absolute;
+  bottom: -39px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card:hover > .edit-button {
+  display: block;
+}
+
+.custom-control {
+  position: absolute;
+  bottom: 10px;
+}
+
+.btn-group-toggle  {
+  width: 100%;
+}
+
+.radio-set {
+  min-width: 265px;
+}
