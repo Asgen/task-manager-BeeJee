@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Task Manager</title>
-      <base href="http://task-manager-beejee/">
+      <base href="http://<?= $_SERVER['SERVER_NAME'] ?>/">
       <!-- Bootstrap -->
       <link rel="stylesheet" href="/vendor/twbs/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
       <link rel="stylesheet" href="/css/style.css">

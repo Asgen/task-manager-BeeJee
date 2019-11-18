@@ -18,3 +18,6 @@ CREATE TABLE users (
   password VARCHAR(255) NOT NULL,
   login VARCHAR(255)
 ) ENGINE=InnoDB CHARSET=utf8;
+
+INSERT INTO users
+SET login = 'admin', password = '123';
